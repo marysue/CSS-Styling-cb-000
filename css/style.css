@@ -49,3 +49,18 @@ figcaption {
 #logo h2 {
   font-family: 'Elise Swash Caps', cursive;
 }
+
+/* pseudo class selectors */
+#details a:link, #details a:visited{
+  color: black:inherit;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
