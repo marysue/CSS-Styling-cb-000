@@ -47,11 +47,12 @@ figcaption {
 }
 
 #logo h2 {
-  font-family: 'Elise Swash Caps', cursive;
+  font-family: 'Elisie Swash Caps', cursive;
 }
 
 /* pseudo class selectors */
-#details a:link, #details a:visited{
+/*the following is a combination of a decendant and a pseudo class selector */
+#details a:link, #details a:visited {
   color: black:inherit;
   text-decoration: none;
 }
