@@ -23,3 +23,13 @@ figcaption {
   color: #777; /* 0 = absence of light = black */
   text-align: right;
 }
+
+/* class selector (applied to as many elements as you like) */
+
+/* light text to have clicker scripts with some light shadows */
+
+.milk-text { /*select elements with class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
